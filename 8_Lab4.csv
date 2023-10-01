@@ -1,6 +1,509 @@
-Countries,Child labour (%)+ 2005–2012*,Child marriage (%) 2005–2012*,Birth registration (%)+ 2005–2012*,Female genital mutilation/cutting (%)+ 2002–2012*,Justification of wife beating (%)  2005–2012*,Violent discipline (%)+ 2005–2012*
-Burkina Faso,39.2,31,76.9,33,39,82.7
-Cameroon,41.7,26,61.4,3,43,93
-Central African Republic ,28.5,48,61,12,80,92
-Côte d'Ivoire,26,22,65,21,45,90.9
-Ghana,33.9,13,62.5,2,35,93.6
+CountryName,CategoryName,CategoryTotal
+Afghanistan,Child labour (%)+ 2005–2012*,10.3
+Afghanistan,Child marriage (%) 2005–2012*,28
+Afghanistan,Birth registration (%)+ 2005–2012*,37.4
+Afghanistan,Violent discipline (%)+ 2005–2012*,74.1
+Albania,Child labour (%)+ 2005–2012*,12
+Albania,Child marriage (%) 2005–2012*,5
+Albania,Birth registration (%)+ 2005–2012*,98.6
+Albania,Justification of wife beating (%)  2005–2012*,33
+Albania,Violent discipline (%)+ 2005–2012*,71.4
+Algeria,Child labour (%)+ 2005–2012*,4.7
+Algeria,Child marriage (%) 2005–2012*,1
+Algeria,Birth registration (%)+ 2005–2012*,99.3
+Algeria,Violent discipline (%)+ 2005–2012*,86.5
+Andorra,Birth registration (%)+ 2005–2012*,100
+Angola,Child labour (%)+ 2005–2012*,23.5
+Angola,Birth registration (%)+ 2005–2012*,36
+Argentina,Child labour (%)+ 2005–2012*,6.5
+Argentina,Birth registration (%)+ 2005–2012*,99
+Armenia,Child labour (%)+ 2005–2012*,3.9
+Armenia,Child marriage (%) 2005–2012*,4
+Armenia,Birth registration (%)+ 2005–2012*,99.6
+Armenia,Justification of wife beating (%)  2005–2012*,15
+Armenia,Violent discipline (%)+ 2005–2012*,66.9
+Australia,Birth registration (%)+ 2005–2012*,100
+Austria,Birth registration (%)+ 2005–2012*,100
+Azerbaijan,Child labour (%)+ 2005–2012*,6.5
+Azerbaijan,Child marriage (%) 2005–2012*,6
+Azerbaijan,Birth registration (%)+ 2005–2012*,93.6
+Azerbaijan,Justification of wife beating (%)  2005–2012*,54
+Azerbaijan,Violent discipline (%)+ 2005–2012*,71.4
+Bahrain,Child labour (%)+ 2005–2012*,4.6
+Bangladesh,Child labour (%)+ 2005–2012*,12.8
+Bangladesh,Child marriage (%) 2005–2012*,47
+Bangladesh,Birth registration (%)+ 2005–2012*,30.5
+Belarus,Child labour (%)+ 2005–2012*,1.4
+Belarus,Child marriage (%) 2005–2012*,2
+Belarus,Birth registration (%)+ 2005–2012*,100
+Belarus,Justification of wife beating (%)  2005–2012*,4
+Belarus,Violent discipline (%)+ 2005–2012*,61.7
+Belgium,Birth registration (%)+ 2005–2012*,100
+Belize,Child labour (%)+ 2005–2012*,5.8
+Belize,Child marriage (%) 2005–2012*,15
+Belize,Birth registration (%)+ 2005–2012*,95.2
+Belize,Violent discipline (%)+ 2005–2012*,69.7
+Benin,Child labour (%)+ 2005–2012*,45.6
+Benin,Child marriage (%) 2005–2012*,21
+Benin,Birth registration (%)+ 2005–2012*,80.2
+Benin,Female genital mutilation/cutting (%)+ 2002–2012*,6
+Benin,Justification of wife beating (%)  2005–2012*,30
+Bhutan,Child labour (%)+ 2005–2012*,2.9
+Bhutan,Child marriage (%) 2005–2012*,16
+Bhutan,Birth registration (%)+ 2005–2012*,99.9
+Bolivia (Plurinational State of),Child labour (%)+ 2005–2012*,26.4
+Bolivia (Plurinational State of),Child marriage (%) 2005–2012*,12
+Bolivia (Plurinational State of),Birth registration (%)+ 2005–2012*,75.8
+Bosnia and Herzegovina,Child labour (%)+ 2005–2012*,5.3
+Bosnia and Herzegovina,Child marriage (%) 2005–2012*,2
+Bosnia and Herzegovina,Birth registration (%)+ 2005–2012*,99.5
+Bosnia and Herzegovina,Justification of wife beating (%)  2005–2012*,5
+Bosnia and Herzegovina,Violent discipline (%)+ 2005–2012*,49.5
+Botswana,Child labour (%)+ 2005–2012*,9
+Botswana,Birth registration (%)+ 2005–2012*,72.2
+Brazil,Child labour (%)+ 2005–2012*,8.6
+Brazil,Child marriage (%) 2005–2012*,23
+Brazil,Birth registration (%)+ 2005–2012*,93.4
+Bulgaria,Birth registration (%)+ 2005–2012*,100
+Burkina Faso,Child labour (%)+ 2005–2012*,39.2
+Burkina Faso,Child marriage (%) 2005–2012*,31
+Burkina Faso,Birth registration (%)+ 2005–2012*,76.9
+Burkina Faso,Female genital mutilation/cutting (%)+ 2002–2012*,33
+Burkina Faso,Justification of wife beating (%)  2005–2012*,39
+Burkina Faso,Violent discipline (%)+ 2005–2012*,81.5
+Burundi,Child labour (%)+ 2005–2012*,26.3
+Burundi,Child marriage (%) 2005–2012*,11
+Burundi,Birth registration (%)+ 2005–2012*,75.2
+Burundi,Justification of wife beating (%)  2005–2012*,59
+Cabo Verde,Child labour (%)+ 2005–2012*,3.2
+Cabo Verde,Child marriage (%) 2005–2012*,10
+Cabo Verde,Birth registration (%)+ 2005–2012*,91.4
+Cabo Verde,Justification of wife beating (%)  2005–2012*,17
+Cambodia,Child labour (%)+ 2005–2012*,36.1
+Cambodia,Child marriage (%) 2005–2012*,10
+Cambodia,Birth registration (%)+ 2005–2012*,62.1
+Cambodia,Justification of wife beating (%)  2005–2012*,34
+Cameroon,Child labour (%)+ 2005–2012*,41.7
+Cameroon,Child marriage (%) 2005–2012*,26
+Cameroon,Birth registration (%)+ 2005–2012*,61.4
+Cameroon,Female genital mutilation/cutting (%)+ 2002–2012*,3
+Cameroon,Justification of wife beating (%)  2005–2012*,43
+Cameroon,Violent discipline (%)+ 2005–2012*,92.6
+Canada,Birth registration (%)+ 2005–2012*,100
+Central African Republic ,Child labour (%)+ 2005–2012*,28.5
+Central African Republic ,Child marriage (%) 2005–2012*,48
+Central African Republic ,Birth registration (%)+ 2005–2012*,61
+Central African Republic ,Female genital mutilation/cutting (%)+ 2002–2012*,12
+Central African Republic ,Justification of wife beating (%)  2005–2012*,80
+Central African Republic ,Violent discipline (%)+ 2005–2012*,92.1
+Chad,Child labour (%)+ 2005–2012*,26.1
+Chad,Child marriage (%) 2005–2012*,49
+Chad,Birth registration (%)+ 2005–2012*,15.7
+Chad,Female genital mutilation/cutting (%)+ 2002–2012*,33
+Chad,Violent discipline (%)+ 2005–2012*,83.6
+Chile,Child labour (%)+ 2005–2012*,2.9
+Chile,Birth registration (%)+ 2005–2012*,99.8
+Colombia,Child labour (%)+ 2005–2012*,13
+Colombia,Child marriage (%) 2005–2012*,14
+Colombia,Birth registration (%)+ 2005–2012*,96.5
+Comoros,Child labour (%)+ 2005–2012*,27.1
+Comoros,Birth registration (%)+ 2005–2012*,88
+Congo,Child labour (%)+ 2005–2012*,24.7
+Congo,Child marriage (%) 2005–2012*,20
+Congo,Birth registration (%)+ 2005–2012*,91
+Costa Rica,Child labour (%)+ 2005–2012*,4.7
+Côte d'Ivoire,Child labour (%)+ 2005–2012*,26
+Côte d'Ivoire,Child marriage (%) 2005–2012*,22
+Côte d'Ivoire,Birth registration (%)+ 2005–2012*,65
+Côte d'Ivoire,Female genital mutilation/cutting (%)+ 2002–2012*,21
+Côte d'Ivoire,Justification of wife beating (%)  2005–2012*,45
+Côte d'Ivoire,Violent discipline (%)+ 2005–2012*,91.2
+Cuba,Child marriage (%) 2005–2012*,25
+Cuba,Birth registration (%)+ 2005–2012*,100
+Cyprus,Birth registration (%)+ 2005–2012*,100
+Czech Republic,Birth registration (%)+ 2005–2012*,100
+Democratic People's Republic of Korea,Birth registration (%)+ 2005–2012*,100
+Democratic Republic of the Congo,Child labour (%)+ 2005–2012*,15
+Democratic Republic of the Congo,Child marriage (%) 2005–2012*,24
+Democratic Republic of the Congo,Birth registration (%)+ 2005–2012*,27.8
+Democratic Republic of the Congo,Violent discipline (%)+ 2005–2012*,91.2
+Denmark,Birth registration (%)+ 2005–2012*,100
+Djibouti,Child labour (%)+ 2005–2012*,7.7
+Djibouti,Child marriage (%) 2005–2012*,4
+Djibouti,Birth registration (%)+ 2005–2012*,92
+Djibouti,Female genital mutilation/cutting (%)+ 2002–2012*,59
+Djibouti,Violent discipline (%)+ 2005–2012*,71.1
+Dominican Republic,Child labour (%)+ 2005–2012*,12.9
+Dominican Republic,Child marriage (%) 2005–2012*,26
+Dominican Republic,Birth registration (%)+ 2005–2012*,82.4
+Dominican Republic,Violent discipline (%)+ 2005–2012*,65.2
+Ecuador,Child labour (%)+ 2005–2012*,7.5
+Ecuador,Child marriage (%) 2005–2012*,13
+Ecuador,Birth registration (%)+ 2005–2012*,90
+Egypt,Child labour (%)+ 2005–2012*,9.3
+Egypt,Child marriage (%) 2005–2012*,9
+Egypt,Birth registration (%)+ 2005–2012*,99
+Egypt,Female genital mutilation/cutting (%)+ 2002–2012*,54
+Egypt,Violent discipline (%)+ 2005–2012*,90.2
+El Salvador,Child labour (%)+ 2005–2012*,10.4
+El Salvador,Child marriage (%) 2005–2012*,15
+El Salvador,Birth registration (%)+ 2005–2012*,98.6
+Equatorial Guinea,Child labour (%)+ 2005–2012*,27.8
+Equatorial Guinea,Birth registration (%)+ 2005–2012*,37
+Eritrea,Child marriage (%) 2005–2012*,33
+Eritrea,Female genital mutilation/cutting (%)+ 2002–2012*,67
+Estonia,Birth registration (%)+ 2005–2012*,100
+Ethiopia,Child labour (%)+ 2005–2012*,27.4
+Ethiopia,Child marriage (%) 2005–2012*,29
+Ethiopia,Birth registration (%)+ 2005–2012*,6.6
+Ethiopia,Female genital mutilation/cutting (%)+ 2002–2012*,43
+Ethiopia,Justification of wife beating (%)  2005–2012*,57
+Finland,Birth registration (%)+ 2005–2012*,100
+France,Birth registration (%)+ 2005–2012*,100
+Gabon,Child labour (%)+ 2005–2012*,13.4
+Gabon,Child marriage (%) 2005–2012*,14
+Gabon,Birth registration (%)+ 2005–2012*,89.6
+Gabon,Justification of wife beating (%)  2005–2012*,45
+Gambia,Child labour (%)+ 2005–2012*,19.2
+Gambia,Child marriage (%) 2005–2012*,22
+Gambia,Birth registration (%)+ 2005–2012*,52.5
+Gambia,Female genital mutilation/cutting (%)+ 2002–2012*,66
+Gambia,Violent discipline (%)+ 2005–2012*,91
+Georgia,Child labour (%)+ 2005–2012*,18.4
+Georgia,Child marriage (%) 2005–2012*,8
+Georgia,Birth registration (%)+ 2005–2012*,98.5
+Georgia,Violent discipline (%)+ 2005–2012*,63.3
+Germany,Birth registration (%)+ 2005–2012*,100
+Ghana,Child labour (%)+ 2005–2012*,33.9
+Ghana,Child marriage (%) 2005–2012*,13
+Ghana,Birth registration (%)+ 2005–2012*,62.5
+Ghana,Female genital mutilation/cutting (%)+ 2002–2012*,2
+Ghana,Justification of wife beating (%)  2005–2012*,35
+Ghana,Violent discipline (%)+ 2005–2012*,93.6
+Greece,Birth registration (%)+ 2005–2012*,100
+Guatemala,Child labour (%)+ 2005–2012*,25.8
+Guatemala,Child marriage (%) 2005–2012*,19
+Guatemala,Birth registration (%)+ 2005–2012*,96.7
+Guinea,Child labour (%)+ 2005–2012*,40.1
+Guinea,Child marriage (%) 2005–2012*,41
+Guinea,Birth registration (%)+ 2005–2012*,43.2
+Guinea,Female genital mutilation/cutting (%)+ 2002–2012*,74
+Guinea-Bissau,Child labour (%)+ 2005–2012*,38
+Guinea-Bissau,Child marriage (%) 2005–2012*,14
+Guinea-Bissau,Birth registration (%)+ 2005–2012*,24.1
+Guinea-Bissau,Female genital mutilation/cutting (%)+ 2002–2012*,41
+Guinea-Bissau,Violent discipline (%)+ 2005–2012*,80.7
+Guyana,Child labour (%)+ 2005–2012*,16.4
+Guyana,Child marriage (%) 2005–2012*,14
+Guyana,Birth registration (%)+ 2005–2012*,87.9
+Guyana,Justification of wife beating (%)  2005–2012*,18
+Guyana,Violent discipline (%)+ 2005–2012*,73.5
+Haiti,Child labour (%)+ 2005–2012*,24.4
+Haiti,Child marriage (%) 2005–2012*,10
+Haiti,Birth registration (%)+ 2005–2012*,79.7
+Haiti,Justification of wife beating (%)  2005–2012*,16
+Haiti,Violent discipline (%)+ 2005–2012*,85.3
+Honduras,Child labour (%)+ 2005–2012*,15.6
+Honduras,Child marriage (%) 2005–2012*,21
+Honduras,Birth registration (%)+ 2005–2012*,93.6
+Honduras,Justification of wife beating (%)  2005–2012*,11
+Hungary,Birth registration (%)+ 2005–2012*,100
+Iceland,Birth registration (%)+ 2005–2012*,100
+India,Child labour (%)+ 2005–2012*,11.8
+India,Child marriage (%) 2005–2012*,33
+India,Birth registration (%)+ 2005–2012*,41.1
+India,Justification of wife beating (%)  2005–2012*,53
+Indonesia,Child labour (%)+ 2005–2012*,6.9
+Indonesia,Child marriage (%) 2005–2012*,10
+Indonesia,Birth registration (%)+ 2005–2012*,67
+Indonesia,Justification of wife beating (%)  2005–2012*,26
+Iran (Islamic Republic of),Child labour (%)+ 2005–2012*,11.4
+Iran (Islamic Republic of),Child marriage (%) 2005–2012*,10
+Iran (Islamic Republic of),Birth registration (%)+ 2005–2012*,98.6
+Iraq,Child labour (%)+ 2005–2012*,4.7
+Iraq,Child marriage (%) 2005–2012*,14
+Iraq,Birth registration (%)+ 2005–2012*,99.2
+Iraq,Female genital mutilation/cutting (%)+ 2002–2012*,5
+Iraq,Violent discipline (%)+ 2005–2012*,76.9
+Ireland,Birth registration (%)+ 2005–2012*,100
+Israel,Birth registration (%)+ 2005–2012*,100
+Italy,Birth registration (%)+ 2005–2012*,100
+Jamaica,Child labour (%)+ 2005–2012*,6.1
+Jamaica,Child marriage (%) 2005–2012*,5
+Jamaica,Birth registration (%)+ 2005–2012*,97.8
+Jamaica,Justification of wife beating (%)  2005–2012*,12
+Jamaica,Violent discipline (%)+ 2005–2012*,87.3
+Japan,Birth registration (%)+ 2005–2012*,100
+Jordan,Child labour (%)+ 2005–2012*,1.9
+Jordan,Child marriage (%) 2005–2012*,5
+Jordan,Birth registration (%)+ 2005–2012*,99.1
+Kazakhstan,Child labour (%)+ 2005–2012*,2.2
+Kazakhstan,Child marriage (%) 2005–2012*,3
+Kazakhstan,Birth registration (%)+ 2005–2012*,99.7
+Kazakhstan,Justification of wife beating (%)  2005–2012*,14
+Kazakhstan,Violent discipline (%)+ 2005–2012*,45.1
+Kenya,Child labour (%)+ 2005–2012*,25.9
+Kenya,Child marriage (%) 2005–2012*,16
+Kenya,Birth registration (%)+ 2005–2012*,60
+Kenya,Female genital mutilation/cutting (%)+ 2002–2012*,15
+Kenya,Justification of wife beating (%)  2005–2012*,48
+Kiribati,Child marriage (%) 2005–2012*,12
+Kiribati,Birth registration (%)+ 2005–2012*,93.5
+Kiribati,Justification of wife beating (%)  2005–2012*,68
+Kyrgyzstan,Child labour (%)+ 2005–2012*,3.6
+Kyrgyzstan,Child marriage (%) 2005–2012*,5
+Kyrgyzstan,Birth registration (%)+ 2005–2012*,96
+Kyrgyzstan,Violent discipline (%)+ 2005–2012*,48.7
+Lao People's Democratic Republic,Child labour (%)+ 2005–2012*,10.1
+Lao People's Democratic Republic,Child marriage (%) 2005–2012*,22
+Lao People's Democratic Republic,Birth registration (%)+ 2005–2012*,74.8
+Lao People's Democratic Republic,Justification of wife beating (%)  2005–2012*,54
+Lao People's Democratic Republic,Violent discipline (%)+ 2005–2012*,74.3
+Latvia,Birth registration (%)+ 2005–2012*,100
+Lebanon,Child labour (%)+ 2005–2012*,1.9
+Lebanon,Child marriage (%) 2005–2012*,4
+Lebanon,Birth registration (%)+ 2005–2012*,99.5
+Lebanon,Violent discipline (%)+ 2005–2012*,81.7
+Lesotho,Child labour (%)+ 2005–2012*,22.9
+Lesotho,Child marriage (%) 2005–2012*,11
+Lesotho,Birth registration (%)+ 2005–2012*,45.1
+Lesotho,Justification of wife beating (%)  2005–2012*,43
+Liberia,Child labour (%)+ 2005–2012*,20.8
+Liberia,Child marriage (%) 2005–2012*,24
+Liberia,Birth registration (%)+ 2005–2012*,3.6
+Liberia,Justification of wife beating (%)  2005–2012*,45
+Liberia,Violent discipline (%)+ 2005–2012*,94
+Liechtenstein,Birth registration (%)+ 2005–2012*,100
+Lithuania,Birth registration (%)+ 2005–2012*,100
+Luxembourg,Birth registration (%)+ 2005–2012*,100
+Madagascar,Child labour (%)+ 2005–2012*,28.1
+Madagascar,Child marriage (%) 2005–2012*,31
+Madagascar,Birth registration (%)+ 2005–2012*,79.7
+Madagascar,Justification of wife beating (%)  2005–2012*,31
+Malawi,Child labour (%)+ 2005–2012*,25.7
+Malawi,Child marriage (%) 2005–2012*,31
+Malawi,Justification of wife beating (%)  2005–2012*,13
+Maldives,Child marriage (%) 2005–2012*,2
+Maldives,Birth registration (%)+ 2005–2012*,92.5
+Maldives,Justification of wife beating (%)  2005–2012*,23
+Mali,Child labour (%)+ 2005–2012*,21.4
+Mali,Child marriage (%) 2005–2012*,35
+Mali,Birth registration (%)+ 2005–2012*,80.8
+Mali,Female genital mutilation/cutting (%)+ 2002–2012*,79
+Malta,Birth registration (%)+ 2005–2012*,100
+Marshall Islands,Child marriage (%) 2005–2012*,16
+Marshall Islands,Birth registration (%)+ 2005–2012*,95.9
+Marshall Islands,Justification of wife beating (%)  2005–2012*,57
+Mauritania,Child labour (%)+ 2005–2012*,14.6
+Mauritania,Child marriage (%) 2005–2012*,24
+Mauritania,Birth registration (%)+ 2005–2012*,58.8
+Mauritania,Female genital mutilation/cutting (%)+ 2002–2012*,55
+Mauritania,Violent discipline (%)+ 2005–2012*,87.2
+Mexico,Child labour (%)+ 2005–2012*,6.3
+Mexico,Child marriage (%) 2005–2012*,14
+Mexico,Birth registration (%)+ 2005–2012*,93.4
+Monaco,Birth registration (%)+ 2005–2012*,100
+Mongolia,Child labour (%)+ 2005–2012*,10.4
+Mongolia,Child marriage (%) 2005–2012*,2
+Mongolia,Birth registration (%)+ 2005–2012*,99
+Mongolia,Justification of wife beating (%)  2005–2012*,9
+Mongolia,Violent discipline (%)+ 2005–2012*,43.1
+Montenegro,Child labour (%)+ 2005–2012*,9.9
+Montenegro,Child marriage (%) 2005–2012*,2
+Montenegro,Birth registration (%)+ 2005–2012*,99
+Montenegro,Violent discipline (%)+ 2005–2012*,61.4
+Morocco,Child labour (%)+ 2005–2012*,8.3
+Morocco,Child marriage (%) 2005–2012*,9
+Morocco,Birth registration (%)+ 2005–2012*,94
+Morocco,Violent discipline (%)+ 2005–2012*,89.5
+Mozambique,Child labour (%)+ 2005–2012*,22.2
+Mozambique,Child marriage (%) 2005–2012*,31
+Mozambique,Birth registration (%)+ 2005–2012*,47.9
+Mozambique,Justification of wife beating (%)  2005–2012*,21
+Myanmar,Birth registration (%)+ 2005–2012*,72.4
+Namibia,Child marriage (%) 2005–2012*,6
+Namibia,Birth registration (%)+ 2005–2012*,78
+Namibia,Justification of wife beating (%)  2005–2012*,38
+Nauru,Child marriage (%) 2005–2012*,14
+Nauru,Birth registration (%)+ 2005–2012*,82.6
+Nepal,Child labour (%)+ 2005–2012*,33.9
+Nepal,Child marriage (%) 2005–2012*,25
+Nepal,Birth registration (%)+ 2005–2012*,42.3
+Nepal,Justification of wife beating (%)  2005–2012*,22
+Netherlands,Birth registration (%)+ 2005–2012*,100
+New Zealand,Birth registration (%)+ 2005–2012*,100
+Nicaragua,Child labour (%)+ 2005–2012*,14.5
+Nicaragua,Child marriage (%) 2005–2012*,26
+Nicaragua,Birth registration (%)+ 2005–2012*,85
+Niger,Child labour (%)+ 2005–2012*,42.8
+Niger,Child marriage (%) 2005–2012*,55
+Niger,Birth registration (%)+ 2005–2012*,31.8
+Niger,Female genital mutilation/cutting (%)+ 2002–2012*,2
+Nigeria,Child labour (%)+ 2005–2012*,24.7
+Nigeria,Child marriage (%) 2005–2012*,29
+Nigeria,Birth registration (%)+ 2005–2012*,41.5
+Nigeria,Female genital mutilation/cutting (%)+ 2002–2012*,21
+Nigeria,Violent discipline (%)+ 2005–2012*,90.3
+Norway,Birth registration (%)+ 2005–2012*,100
+Pakistan,Child marriage (%) 2005–2012*,15
+Pakistan,Birth registration (%)+ 2005–2012*,26.5
+Panama,Child labour (%)+ 2005–2012*,5.6
+Papua New Guinea,Child marriage (%) 2005–2012*,12
+Paraguay,Child labour (%)+ 2005–2012*,14.6
+Paraguay,Birth registration (%)+ 2005–2012*,76
+Peru,Child labour (%)+ 2005–2012*,33.5
+Peru,Child marriage (%) 2005–2012*,11
+Peru,Birth registration (%)+ 2005–2012*,96
+Philippines,Child marriage (%) 2005–2012*,8
+Philippines,Birth registration (%)+ 2005–2012*,90
+Poland,Birth registration (%)+ 2005–2012*,100
+Portugal,Child labour (%)+ 2005–2012*,3.4
+Portugal,Birth registration (%)+ 2005–2012*,100
+Republic of Moldova,Child labour (%)+ 2005–2012*,16.3
+Republic of Moldova,Child marriage (%) 2005–2012*,10
+Republic of Moldova,Birth registration (%)+ 2005–2012*,100
+Republic of Moldova,Justification of wife beating (%)  2005–2012*,21
+Romania,Child labour (%)+ 2005–2012*,0.9
+Russian Federation,Birth registration (%)+ 2005–2012*,100
+Rwanda,Child labour (%)+ 2005–2012*,28.5
+Rwanda,Child marriage (%) 2005–2012*,4
+Rwanda,Birth registration (%)+ 2005–2012*,63.2
+Rwanda,Justification of wife beating (%)  2005–2012*,41
+Samoa,Birth registration (%)+ 2005–2012*,47.7
+Samoa,Justification of wife beating (%)  2005–2012*,53
+San Marino,Birth registration (%)+ 2005–2012*,100
+Sao Tome and Principe,Child labour (%)+ 2005–2012*,7.5
+Sao Tome and Principe,Child marriage (%) 2005–2012*,20
+Sao Tome and Principe,Birth registration (%)+ 2005–2012*,75.1
+Sao Tome and Principe,Justification of wife beating (%)  2005–2012*,21
+Senegal,Child labour (%)+ 2005–2012*,16.5
+Senegal,Child marriage (%) 2005–2012*,22
+Senegal,Birth registration (%)+ 2005–2012*,74.6
+Senegal,Female genital mutilation/cutting (%)+ 2002–2012*,20
+Senegal,Justification of wife beating (%)  2005–2012*,42
+Serbia,Child labour (%)+ 2005–2012*,4.4
+Serbia,Child marriage (%) 2005–2012*,3
+Serbia,Birth registration (%)+ 2005–2012*,98.9
+Serbia,Justification of wife beating (%)  2005–2012*,5
+Serbia,Violent discipline (%)+ 2005–2012*,63.9
+Sierra Leone,Child labour (%)+ 2005–2012*,26
+Sierra Leone,Child marriage (%) 2005–2012*,31
+Sierra Leone,Birth registration (%)+ 2005–2012*,78
+Sierra Leone,Female genital mutilation/cutting (%)+ 2002–2012*,56
+Sierra Leone,Violent discipline (%)+ 2005–2012*,82.3
+Slovakia,Birth registration (%)+ 2005–2012*,100
+Slovenia,Birth registration (%)+ 2005–2012*,100
+Solomon Islands,Child marriage (%) 2005–2012*,13
+Solomon Islands,Justification of wife beating (%)  2005–2012*,67
+Somalia,Child labour (%)+ 2005–2012*,49
+Somalia,Child marriage (%) 2005–2012*,27
+Somalia,Birth registration (%)+ 2005–2012*,3
+Somalia,Female genital mutilation/cutting (%)+ 2002–2012*,69
+South Africa,Child marriage (%) 2005–2012*,3
+South Africa,Birth registration (%)+ 2005–2012*,95
+South Sudan,Child marriage (%) 2005–2012*,30
+South Sudan,Birth registration (%)+ 2005–2012*,35.4
+Spain,Birth registration (%)+ 2005–2012*,100
+Sri Lanka,Child marriage (%) 2005–2012*,7
+Sri Lanka,Birth registration (%)+ 2005–2012*,97.2
+State of Palestine,Child labour (%)+ 2005–2012*,5.7
+State of Palestine,Child marriage (%) 2005–2012*,11
+State of Palestine,Birth registration (%)+ 2005–2012*,99.3
+State of Palestine,Violent discipline (%)+ 2005–2012*,91.8
+Sudan,Child marriage (%) 2005–2012*,20
+Sudan,Birth registration (%)+ 2005–2012*,59.3
+Sudan,Female genital mutilation/cutting (%)+ 2002–2012*,56
+Suriname,Child labour (%)+ 2005–2012*,4.1
+Suriname,Child marriage (%) 2005–2012*,12
+Suriname,Birth registration (%)+ 2005–2012*,98.9
+Suriname,Violent discipline (%)+ 2005–2012*,85.1
+Swaziland,Child labour (%)+ 2005–2012*,7.3
+Swaziland,Child marriage (%) 2005–2012*,4
+Swaziland,Birth registration (%)+ 2005–2012*,49.5
+Swaziland,Justification of wife beating (%)  2005–2012*,25
+Swaziland,Violent discipline (%)+ 2005–2012*,88.1
+Sweden,Birth registration (%)+ 2005–2012*,100
+Switzerland,Birth registration (%)+ 2005–2012*,100
+Syrian Arab Republic,Child labour (%)+ 2005–2012*,4
+Syrian Arab Republic,Child marriage (%) 2005–2012*,8
+Syrian Arab Republic,Birth registration (%)+ 2005–2012*,96
+Syrian Arab Republic,Violent discipline (%)+ 2005–2012*,87.5
+Tajikistan,Child labour (%)+ 2005–2012*,10
+Tajikistan,Child marriage (%) 2005–2012*,7
+Tajikistan,Birth registration (%)+ 2005–2012*,88.3
+Tajikistan,Violent discipline (%)+ 2005–2012*,75.2
+Thailand,Child labour (%)+ 2005–2012*,8.3
+Thailand,Child marriage (%) 2005–2012*,11
+Thailand,Birth registration (%)+ 2005–2012*,100
+The former Yugoslav Republic of Macedonia,Child labour (%)+ 2005–2012*,12.5
+The former Yugoslav Republic of Macedonia,Child marriage (%) 2005–2012*,4
+The former Yugoslav Republic of Macedonia,Birth registration (%)+ 2005–2012*,99.7
+The former Yugoslav Republic of Macedonia,Violent discipline (%)+ 2005–2012*,67.4
+Timor-Leste,Child labour (%)+ 2005–2012*,4.2
+Timor-Leste,Child marriage (%) 2005–2012*,11
+Timor-Leste,Birth registration (%)+ 2005–2012*,55.2
+Timor-Leste,Justification of wife beating (%)  2005–2012*,83
+Togo,Child labour (%)+ 2005–2012*,28.3
+Togo,Child marriage (%) 2005–2012*,16
+Togo,Birth registration (%)+ 2005–2012*,77.9
+Togo,Female genital mutilation/cutting (%)+ 2002–2012*,2
+Togo,Violent discipline (%)+ 2005–2012*,92.6
+Trinidad and Tobago,Child labour (%)+ 2005–2012*,0.7
+Trinidad and Tobago,Child marriage (%) 2005–2012*,5
+Trinidad and Tobago,Birth registration (%)+ 2005–2012*,97
+Trinidad and Tobago,Violent discipline (%)+ 2005–2012*,76.5
+Tunisia,Child labour (%)+ 2005–2012*,2.1
+Tunisia,Child marriage (%) 2005–2012*,1
+Tunisia,Birth registration (%)+ 2005–2012*,99.2
+Tunisia,Violent discipline (%)+ 2005–2012*,92.3
+Turkey,Child labour (%)+ 2005–2012*,2.6
+Turkey,Child marriage (%) 2005–2012*,8
+Turkey,Birth registration (%)+ 2005–2012*,93.7
+Turkmenistan,Child marriage (%) 2005–2012*,4
+Turkmenistan,Birth registration (%)+ 2005–2012*,95.5
+Tuvalu,Child marriage (%) 2005–2012*,5
+Tuvalu,Birth registration (%)+ 2005–2012*,49.9
+Tuvalu,Justification of wife beating (%)  2005–2012*,72
+Uganda,Child labour (%)+ 2005–2012*,25.4
+Uganda,Child marriage (%) 2005–2012*,25
+Uganda,Birth registration (%)+ 2005–2012*,29.9
+Uganda,Female genital mutilation/cutting (%)+ 2002–2012*,4
+Uganda,Justification of wife beating (%)  2005–2012*,51
+Ukraine,Child labour (%)+ 2005–2012*,7.3
+Ukraine,Child marriage (%) 2005–2012*,5
+Ukraine,Birth registration (%)+ 2005–2012*,99.8
+Ukraine,Justification of wife beating (%)  2005–2012*,7
+Ukraine,Violent discipline (%)+ 2005–2012*,64.8
+United Arab Emirates,Birth registration (%)+ 2005–2012*,100
+United Kingdom,Birth registration (%)+ 2005–2012*,100
+United Republic of Tanzania,Child labour (%)+ 2005–2012*,21.1
+United Republic of Tanzania,Child marriage (%) 2005–2012*,22
+United Republic of Tanzania,Birth registration (%)+ 2005–2012*,16.3
+United Republic of Tanzania,Female genital mutilation/cutting (%)+ 2002–2012*,8
+United Republic of Tanzania,Justification of wife beating (%)  2005–2012*,46
+United States,Birth registration (%)+ 2005–2012*,100
+Uruguay,Child labour (%)+ 2005–2012*,7.9
+Uruguay,Birth registration (%)+ 2005–2012*,100
+Uzbekistan,Child marriage (%) 2005–2012*,4
+Uzbekistan,Birth registration (%)+ 2005–2012*,99.9
+Uzbekistan,Justification of wife beating (%)  2005–2012*,64
+Vanuatu,Child marriage (%) 2005–2012*,18
+Vanuatu,Birth registration (%)+ 2005–2012*,43
+Venezuela (Bolivarian Republic of),Child labour (%)+ 2005–2012*,7.7
+Venezuela (Bolivarian Republic of),Birth registration (%)+ 2005–2012*,81
+Viet Nam,Child labour (%)+ 2005–2012*,6.9
+Viet Nam,Child marriage (%) 2005–2012*,5
+Viet Nam,Birth registration (%)+ 2005–2012*,95
+Viet Nam,Violent discipline (%)+ 2005–2012*,71.4
+Yemen,Child labour (%)+ 2005–2012*,22.7
+Yemen,Child marriage (%) 2005–2012*,22
+Yemen,Birth registration (%)+ 2005–2012*,17
+Yemen,Female genital mutilation/cutting (%)+ 2002–2012*,24
+Yemen,Violent discipline (%)+ 2005–2012*,94.7
+Zambia,Child labour (%)+ 2005–2012*,40.6
+Zambia,Child marriage (%) 2005–2012*,25
+Zambia,Birth registration (%)+ 2005–2012*,14
+Zambia,Justification of wife beating (%)  2005–2012*,56
+Zimbabwe,Child marriage (%) 2005–2012*,17
+Zimbabwe,Birth registration (%)+ 2005–2012*,48.8
+Zimbabwe,Justification of wife beating (%)  2005–2012*,37

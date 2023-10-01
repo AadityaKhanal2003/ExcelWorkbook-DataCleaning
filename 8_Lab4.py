@@ -5,10 +5,7 @@ import xlrd
 path = "Lab4Data.xlsx"
 wb = openpyxl.load_workbook(path, read_only=False)
 ws = wb.worksheets[1]
-countries_range = ws["B15:B211"]
-clabour_range = ws["E15:E211"]
-bregistration_range = ws["O15:O211"]
-vdiscpline_range = ws["AA15:AA211"]
+
 
 def calctotalmarriage():
     total_marriage_value = []
@@ -70,6 +67,23 @@ def calctotalfgm():
             total_fgm_output.append(to_add_rounded)
     return total_fgm_output
 
+
+countries_range = ws["B15:B211"]
+clabour_range = ws["E15:E211"]
+clabourM_range = ws["G15:G211"]
+clabourW_range = ws["I15:I211"]
+cmarraigeb15_range= ws["K15:K211"]
+cmarraigeb18_range= ws["M15:M211"]
+bregistration_range = ws["O15:O211"]
+total_fgm__rangeW= ws["Q15:Q211"]
+total_fgm__rangeG= ws["S15:S211"]
+total_fgm__rangeSFTP= ws["U15:U211"]
+total_jow_rangeM= ws["W15:W211"]
+total_jow_rangeF= ws["Y15:Y211"]
+vdiscpline_rangeM = ws["AC15:AC211"]
+vdiscpline_rangeF = ws["AA15:AA211"]
+vdiscpline_range = ws["AE15:AE211"]
+
 #7columns including country_values
 country_values = [cell[0].value for cell in countries_range] #197
 clabour_values = [cell[0].value for cell in clabour_range] #197
@@ -79,65 +93,42 @@ total_marriage_value = calctotalmarriage() #197
 total_wife_beating_value = calctotaljow()#197
 total_female_genital_Value = calctotalfgm()#197
 
+catagories_list = [clabour_values,total_marriage_value,bregistration_values,total_female_genital_Value,total_wife_beating_value,vdiscpline_values]
+
 def cleancell(cell_value):
     return cell_value.value.replace('\n', ' ')
-title = ["Countries",cleancell(ws.cell(row=5, column=5)),cleancell(ws.cell(row=5, column=11)),cleancell(ws.cell(row=5, column=15)),cleancell(ws.cell(row=5, column=17)),cleancell(ws.cell(row=5, column=23)),cleancell(ws.cell(row=5, column=27))]
+title = [cleancell(ws.cell(row=5, column=5)),cleancell(ws.cell(row=5, column=11)),cleancell(ws.cell(row=5, column=15)),cleancell(ws.cell(row=5, column=17)),cleancell(ws.cell(row=5, column=23)),cleancell(ws.cell(row=5, column=27))]
 
+#title[0]#Child Labor
+#title[1]#Child Marraige
+#title[2]#Birth Registration
+#title[3]#Female genital cutting
+#title[4]#Justification of wife beating
+#title[5]#Violent Discpline
 
-# Creating a dictionary to store the data
+header1 = ["CountryName", "CategoryName", "CategoryTotal"]
+
 data_dict = {
-    title[0]: [], #Countries
-    title[1]:[], #Child Labor
-    title[2]: [], #Child Marraige
-    title[3]: [], #Birth Registration
-    title[4]: [], #Female genital cutting
-    title[5]: [], #Justification of wife beating
-    title[6]:[], #Violent Discpline
+    header1[0] : [],
+    header1[1] :[],
+    header1[2] :[]
 }
-
 #Store everything in a dictionary
+rows = []
 for i in range(len(country_values)):
-    if (
-        total_marriage_value[i] != "–"
-        and total_wife_beating_value[i] != "–"
-        and total_female_genital_Value[i] != "–"
-        and vdiscpline_values[i] != "–"
-        and bregistration_values[i] != "–"
-        and clabour_values[i] !="–"
-    ):
-        data_dict[title[0]].append(country_values[i])
-        data_dict[title[1]].append(clabour_values[i])
-        data_dict[title[2]].append(total_marriage_value[i])
-        data_dict[title[3]].append(bregistration_values[i])
-        data_dict[title[4]].append(total_female_genital_Value[i])
-        data_dict[title[5]].append(total_wife_beating_value[i])
-        data_dict[title[6]].append(vdiscpline_values[i])
-        
+    for j in range(6):  # Assuming there are 5 categories
+        if "–" in str(catagories_list[j][i]):
+            continue
+        row = {
+            header1[0]: country_values[i],
+            header1[1]: title[j],
+            header1[2]: catagories_list[j][i]
+        }
+        rows.append(row)
 
-
-
- #Write the data to a CSV file
 output_file = "8_Lab4.csv"
 with open(output_file, "w", newline="") as csvfile:
-    count = 0
-    writer = csv.DictWriter(csvfile, fieldnames=data_dict.keys())
+    writer = csv.DictWriter(csvfile, fieldnames=header1)
     writer.writeheader()
-    for i in range(len(data_dict[title[0]])):
-        row = {
-            title[0]: data_dict[title[0]][i],
-            title[1]: data_dict[title[1]][i],
-            title[2]: data_dict[title[2]][i],
-            title[3]: data_dict[title[3]][i],
-            title[4]: data_dict[title[4]][i],
-            title[5]: data_dict[title[5]][i],
-            title[6]: data_dict[title[6]][i],
-        }
-        count +=1
+    for row in rows:
         writer.writerow(row)
-
-print("No of rows is:", count)
-#Closing the workbook finally
-wb.close()
-
-
-
