@@ -71,10 +71,19 @@ def calctotalfgm():
     return total_fgm_output
 country_names = [cell[0].value for cell in countries_range]
 
-# Calculate values for each category
-total_marriage_values = calctotalmarriage()
-total_wife_beating_values = calctotaljow()
-total_female_genital_values = calctotalfgm()
+#7columns including country_values
+country_values = [cell[0].value for cell in countries_range] #197
+clabour_values = [cell[0].value for cell in clabour_range] #197
+bregistration_values = [cell[0].value for cell in bregistration_range] #197
+vdiscpline_values = [cell[0].value for cell in vdiscpline_range]#197
+total_marriage_value = calctotalmarriage() #197
+total_wife_beating_value = calctotaljow()#197
+total_female_genital_Value = calctotalfgm()#197
+
+def cleancell(cell_value):
+    return cell_value.value.replace('\n', ' ')
+title = ["Countries",cleancell(ws.cell(row=5, column=5)),cleancell(ws.cell(row=5, column=11)),cleancell(ws.cell(row=5, column=15)),cleancell(ws.cell(row=5, column=17)),cleancell(ws.cell(row=5, column=23)),cleancell(ws.cell(row=5, column=27))]
+
 
 # Creating a dictionary to store the data
 data_dict = {
@@ -111,16 +120,6 @@ with open(output_file, "w", newline="") as csvfile:
 
 # Closing the workbook finally
 wb.close()
-#7columns including country_values
-country_values = [cell[0].value for cell in countries_range] #197
-clabour_values = [cell[0].value for cell in clabour_range] #197
-bregistration_values = [cell[0].value for cell in bregistration_range] #197
-vdiscpline_values = [cell[0].value for cell in vdiscpline_range]#197
-total_marriage_value = calctotalmarriage() #197
-total_wife_beating_value = calctotaljow()#197
-total_female_genital_Value = calctotalfgm()#197
 
-
-wb.close()
 
 
