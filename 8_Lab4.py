@@ -95,14 +95,14 @@ data_dict = {
 
 for i in range(len(country_names)):
     if (
-        total_marriage_values[i] != 0
-        and total_wife_beating_values[i] != 0
-        and total_female_genital_values[i] != 0
+        total_marriage_value[i] != 0
+        and total_wife_beating_value[i] != 0
+        and total_female_genital_Value[i] != 0
     ):
         data_dict["Country"].append(country_names[i])
-        data_dict["Child Marriage"].append(total_marriage_values[i])
-        data_dict["Justification of Wife Beating"].append(total_wife_beating_values[i])
-        data_dict["Female Genital Cutting"].append(total_female_genital_values[i])
+        data_dict["Child Marriage"].append(total_marriage_value[i])
+        data_dict["Justification of Wife Beating"].append(total_wife_beating_value[i])
+        data_dict["Female Genital Cutting"].append(total_female_genital_Value[i])
 
 # Write the data to a CSV file
 output_file = "Lab4_CleanData.csv"
