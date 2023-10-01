@@ -6,33 +6,26 @@ ws = wb.worksheets[1]
 countries_range = ws["B15:B211"]
 clabour_range = ws["E15:E211"]
 bregistration_range = ws["O15:O211"]
-bregistration_range = ws["O15:O211"]
-cmarraige_rangeo = ws["K15:K211"]
-cmarraige_ranget = ws["L15:L211"]
-# Iterate through country values
-for cell in countries_range:
-    country_value = cell[0].value 
-    #print(country_value)
 
-# Iterate through child labour values
-for cell2 in clabour_range:
-    clabour_value = cell2[0].value 
-    #print(clabour_value)
+country_values = [cell[0].value for cell in countries_range]
+clabour_values = [cell[0].value for cell in clabour_range]
+bregistration_values = [cell[0].value for cell in bregistration_range]
+print(country_values)
 
-# Iterate through birth registration values
-for cell3 in bregistration_range:
-    bregistration_value = cell3[0].value 
-    #print(bregistration_value)
+total_marriage_value = []
+cmarraigeb15_range= ws["K15:K211"]
+cmarraigeb18_range= ws["M15:M211"]
+cmarraige_range = ws["K15:L211"]
 
 # Iterate through child marriage values
-for cell4 in cmarraige_rangeo:
-    cmarraigeo_value = cell4[0].value 
-for cell5 in cmarraige_ranget:
-    cmarraiget_value = cell5[0].value
-
-print(type(cmarraigeo_value))
-
-
-
-
+for i in range(0, len(cmarraige_range)):
+    cmarraigeb15_value = cmarraigeb15_range[i][0].value
+    cmarraigeb18_value= cmarraigeb18_range[i][0].value
+    if("–" in str(cmarraigeb15_value) or "–" in str(cmarraigeb18_value)):
+        total_marriage_value.append("–")
+    else:
+        cmarraigeb15_value = int(cmarraigeb15_value)
+        cmarraigeb18_value = int(cmarraigeb18_value)
+        total_marriage_value.append(cmarraigeb15_value + cmarraigeb18_value)
+#print(total_marriage_value)
 wb.close()
