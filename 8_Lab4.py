@@ -1,5 +1,7 @@
+import csv
 import openpyxl
 import xlrd
+
 path = "Lab4Data.xlsx"
 wb = openpyxl.load_workbook(path, read_only=False)
 ws = wb.worksheets[1]
@@ -67,9 +69,48 @@ def calctotalfgm():
             to_add_rounded = round(toadd)
             total_fgm_output.append(to_add_rounded)
     return total_fgm_output
+country_names = [cell[0].value for cell in countries_range]
 
+# Calculate values for each category
+total_marriage_values = calctotalmarriage()
+total_wife_beating_values = calctotaljow()
+total_female_genital_values = calctotalfgm()
 
+# Creating a dictionary to store the data
+data_dict = {
+    "Country": [],
+    "Child Marriage": [],
+    "Justification of Wife Beating": [],
+    "Female Genital Cutting": [],
+}
 
+for i in range(len(country_names)):
+    if (
+        total_marriage_values[i] != 0
+        and total_wife_beating_values[i] != 0
+        and total_female_genital_values[i] != 0
+    ):
+        data_dict["Country"].append(country_names[i])
+        data_dict["Child Marriage"].append(total_marriage_values[i])
+        data_dict["Justification of Wife Beating"].append(total_wife_beating_values[i])
+        data_dict["Female Genital Cutting"].append(total_female_genital_values[i])
+
+# Write the data to a CSV file
+output_file = "Lab4_CleanData.csv"
+with open(output_file, "w", newline="") as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=data_dict.keys())
+    writer.writeheader()
+    for i in range(len(data_dict["Country"])):
+        row = {
+            "Country": data_dict["Country"][i],
+            "Child Marriage": data_dict["Child Marriage"][i],
+            "Justification of Wife Beating": data_dict["Justification of Wife Beating"][i],
+            "Female Genital Cutting": data_dict["Female Genital Cutting"][i],
+        }
+        writer.writerow(row)
+
+# Closing the workbook finally
+wb.close()
 #7columns including country_values
 country_values = [cell[0].value for cell in countries_range] #197
 clabour_values = [cell[0].value for cell in clabour_range] #197
