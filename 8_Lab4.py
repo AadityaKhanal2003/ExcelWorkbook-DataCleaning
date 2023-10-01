@@ -23,7 +23,7 @@ def calctotalmarriage():
             cmarraigeb15_value = float(cmarraigeb15_value)
             cmarraigeb18_value = float(cmarraigeb18_value)
             toaddd = (cmarraigeb15_value + cmarraigeb18_value)/2
-            to_add_roundedd = round(toaddd,1)
+            to_add_roundedd = round(toaddd)
             total_marriage_value.append(to_add_roundedd)
     return total_marriage_value
 
@@ -42,7 +42,7 @@ def calctotaljow():
             jowM_value = float(jowM_value)
             jowF_value = float(jowF_value)
             to_add = (jowM_value + jowF_value)/2
-            to_add_roundedd = round(to_add, 1)
+            to_add_roundedd = round(to_add)
             total_jow_output.append(to_add_roundedd)
     return total_jow_output
 
@@ -64,7 +64,7 @@ def calctotalfgm():
             fgmG_value = float(fgmG_value)
             fgmSFTP_value = float(fgmSFTP_value)
             toadd = (fgmW_value + fgmG_value+ fgmSFTP_value)/3
-            to_add_rounded = round(toadd, 1)
+            to_add_rounded = round(toadd)
             total_fgm_output.append(to_add_rounded)
     return total_fgm_output
 
@@ -78,7 +78,8 @@ vdiscpline_values = [cell[0].value for cell in vdiscpline_range]#197
 total_marriage_value = calctotalmarriage() #197
 total_wife_beating_value = calctotaljow()#197
 total_female_genital_Value = calctotalfgm()#197
-print(total_marriage_value)
+
+
 wb.close()
 
 
