@@ -119,6 +119,7 @@ for i in range(len(country_values)):
  #Write the data to a CSV file
 output_file = "8_Lab4.csv"
 with open(output_file, "w", newline="") as csvfile:
+    count = 0
     writer = csv.DictWriter(csvfile, fieldnames=data_dict.keys())
     writer.writeheader()
     for i in range(len(data_dict[title[0]])):
@@ -130,10 +131,11 @@ with open(output_file, "w", newline="") as csvfile:
             title[4]: data_dict[title[4]][i],
             title[5]: data_dict[title[5]][i],
             title[6]: data_dict[title[6]][i],
-
         }
+        count +=1
         writer.writerow(row)
 
+print("No of rows is:", count)
 #Closing the workbook finally
 wb.close()
 
