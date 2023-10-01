@@ -69,7 +69,6 @@ def calctotalfgm():
             to_add_rounded = round(toadd)
             total_fgm_output.append(to_add_rounded)
     return total_fgm_output
-country_names = [cell[0].value for cell in countries_range]
 
 #7columns including country_values
 country_values = [cell[0].value for cell in countries_range] #197
@@ -87,38 +86,55 @@ title = ["Countries",cleancell(ws.cell(row=5, column=5)),cleancell(ws.cell(row=5
 
 # Creating a dictionary to store the data
 data_dict = {
-    "Country": [],
-    "Child Marriage": [],
-    "Justification of Wife Beating": [],
-    "Female Genital Cutting": [],
+    title[0]: [], #Countries
+    title[1]:[], #Child Labor
+    title[2]: [], #Child Marraige
+    title[3]: [], #Birth Registration
+    title[4]: [], #Female genital cutting
+    title[5]: [], #Justification of wife beating
+    title[6]:[], #Violent Discpline
 }
 
-for i in range(len(country_names)):
+#Store everything in a dictionary
+for i in range(len(country_values)):
     if (
-        total_marriage_value[i] != 0
-        and total_wife_beating_value[i] != 0
-        and total_female_genital_Value[i] != 0
+        total_marriage_value[i] != "–"
+        and total_wife_beating_value[i] != "–"
+        and total_female_genital_Value[i] != "–"
+        and vdiscpline_values[i] != "–"
+        and bregistration_values[i] != "–"
+        and clabour_values[i] !="–"
     ):
-        data_dict["Country"].append(country_names[i])
-        data_dict["Child Marriage"].append(total_marriage_value[i])
-        data_dict["Justification of Wife Beating"].append(total_wife_beating_value[i])
-        data_dict["Female Genital Cutting"].append(total_female_genital_Value[i])
+        data_dict[title[0]].append(country_values[i])
+        data_dict[title[1]].append(clabour_values[i])
+        data_dict[title[2]].append(total_marriage_value[i])
+        data_dict[title[3]].append(bregistration_values[i])
+        data_dict[title[4]].append(total_female_genital_Value[i])
+        data_dict[title[5]].append(total_wife_beating_value[i])
+        data_dict[title[6]].append(vdiscpline_values[i])
+        
 
-# Write the data to a CSV file
-output_file = "Lab4_CleanData.csv"
+
+
+ #Write the data to a CSV file
+output_file = "8_Lab4.csv"
 with open(output_file, "w", newline="") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=data_dict.keys())
     writer.writeheader()
-    for i in range(len(data_dict["Country"])):
+    for i in range(len(data_dict[title[0]])):
         row = {
-            "Country": data_dict["Country"][i],
-            "Child Marriage": data_dict["Child Marriage"][i],
-            "Justification of Wife Beating": data_dict["Justification of Wife Beating"][i],
-            "Female Genital Cutting": data_dict["Female Genital Cutting"][i],
+            title[0]: data_dict[title[0]][i],
+            title[1]: data_dict[title[1]][i],
+            title[2]: data_dict[title[2]][i],
+            title[3]: data_dict[title[3]][i],
+            title[4]: data_dict[title[4]][i],
+            title[5]: data_dict[title[5]][i],
+            title[6]: data_dict[title[6]][i],
+
         }
         writer.writerow(row)
 
-# Closing the workbook finally
+#Closing the workbook finally
 wb.close()
 
 
