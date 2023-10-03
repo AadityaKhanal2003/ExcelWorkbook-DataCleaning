@@ -55,6 +55,7 @@ data_dict = {
     header1[1] :[],
     header1[2] :[]
 }
+count = 0
 #Store everything in a dictionary
 rows = []
 for i in range(len(country_values)):
@@ -66,6 +67,7 @@ for i in range(len(country_values)):
             header1[1]: title[j],
             header1[2]: catagories_list[j][i]
         }
+        count+=1
         rows.append(row)
 
 output_file = "8_Lab4.csv"
@@ -74,3 +76,5 @@ with open(output_file, "w", newline="") as csvfile:
     writer.writeheader()
     for row in rows:
         writer.writerow(row)
+
+print(count)
