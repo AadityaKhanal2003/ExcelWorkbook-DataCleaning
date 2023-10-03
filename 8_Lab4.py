@@ -62,7 +62,7 @@ count = 0
 rows = []
 for i in range(len(country_values)):
     for j in range(14):  # Assuming there are 5 categories
-        if "–" in str(catagories_list[j][i]):
+        if "–" in str(catagories_list[j][i]) or catagories_list[j][i] == 0:
             continue
         row = {
             header1[0]: country_values[i],
