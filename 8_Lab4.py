@@ -43,42 +43,46 @@ vdiscpline_valuesM = [cell[0].value for cell in vdiscpline_rangeM]#197 Violent D
 vdiscpline_valuesF = [cell[0].value for cell in vdiscpline_rangeF]#197 Violent Disclipine female
 vdiscpline_values = [cell[0].value for cell in vdiscpline_range]#197 Violent Disclipine total
 
-
+#I created a list that included all the columns so that it will be easier for iteration
 catagories_list = [clabour_values,clabourM_values,clabourW_values,cmarraigeb15_values,cmarraigeb18_values,bregistration_values,
                    total_fgmW_values,total_fgmG_values,total_fgmSGM_values,total_jowM_values,total_jowF_values,vdiscpline_values,
                    vdiscpline_valuesM,vdiscpline_valuesF]
+#title of each column
 title = ['Child_labour_total', 'Child_labour_male', 'Child_labour_female', 'Children married by 15', 
          'Children married by 18', 'Birth registration total', 'FGM prevelance in women', 'FGM prevalance in girls','FGM prevelance in support groups', 
          'Justify wife beating male', 'Justify wife beating female', 'Violent discipline total', 'Violent discipline male', 
          'Violent discipline female']
-
+#title for csv file columns
 header1 = ["CountryName", "CategoryName", "CategoryTotal"]
-
+#dict for csv file
 data_dict = {
     header1[0] : [],
     header1[1] :[],
     header1[2] :[]
 }
+#count to count the number of rows
 count = 0
-#Store everything in a dictionary
 rows = []
 for i in range(len(country_values)):
-    for j in range(14):  # Assuming there are 5 categories
-        if "–" in str(catagories_list[j][i]) or catagories_list[j][i] == 0:
+    for j in range(14):  # As there are 14 categories
+        if "–" in str(catagories_list[j][i]) or catagories_list[j][i] == 0: #Remove all 0 and all "-
             continue
         row = {
-            header1[0]: country_values[i],
-            header1[1]: title[j],
-            header1[2]: catagories_list[j][i]
+            header1[0]: country_values[i],          #Country Name
+            header1[1]: title[j],                   #Category Name
+            header1[2]: catagories_list[j][i]       #Category Total
         }
         count+=1
         rows.append(row)
-
+#Writing it in a csv file
 output_file = "8_Lab4.csv"
 with open(output_file, "w", newline="") as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=header1)
+    writer = csv.DictWriter(csvfile, fieldnames=header1) #write title as header1
     writer.writeheader()
     for row in rows:
-        writer.writerow(row)
+        writer.writerow(row)                              #add each row in a new row in csv file
 
 print("The total number of rows in the csv file is ",count)
+
+#Output:
+#The total number of rows in the csv file is  1082
