@@ -17,6 +17,7 @@ cmarraigeb18_range= ws["M15:M211"]
 bregistration_range = ws["O15:O211"]
 total_fgm__rangeW= ws["Q15:Q211"]
 total_fgm__rangeG= ws["S15:S211"]
+total_fgm__rangeSGM= ws["U15:U211"]
 total_jow_rangeM= ws["W15:W211"]
 total_jow_rangeF= ws["Y15:Y211"]
 vdiscpline_rangeM = ws["AC15:AC211"]
@@ -33,6 +34,7 @@ cmarraigeb18_values = [cell[0].value for cell in cmarraigeb18_range]#197
 bregistration_values = [cell[0].value for cell in bregistration_range] #197
 total_fgmW_values = [cell[0].value for cell in total_fgm__rangeW] #197
 total_fgmG_values = [cell[0].value for cell in total_fgm__rangeG] #197
+total_fgmSGM_values = [cell[0].value for cell in total_fgm__rangeSGM]#197
 total_jowM_values = [cell[0].value for cell in total_jow_rangeM] #197
 total_jowF_values = [cell[0].value for cell in total_jow_rangeF] #197
 vdiscpline_valuesM = [cell[0].value for cell in vdiscpline_rangeM]#197
@@ -41,10 +43,10 @@ vdiscpline_values = [cell[0].value for cell in vdiscpline_range]#197
 
 
 catagories_list = [clabour_values,clabourM_values,clabourW_values,cmarraigeb15_values,cmarraigeb18_values,bregistration_values,
-                   total_fgmW_values,total_fgmG_values,total_jowM_values,total_jowF_values,vdiscpline_values,
+                   total_fgmW_values,total_fgmG_values,total_fgmSGM_values,total_jowM_values,total_jowF_values,vdiscpline_values,
                    vdiscpline_valuesM,vdiscpline_valuesF]
 title = ['Child_labour_total', 'Child_labour_male', 'Child_labour_female', 'Children married by 15', 
-         'Children married by 18', 'Birth registration total', 'FGM prevelance in women', 'FGM prevalance in girls', 
+         'Children married by 18', 'Birth registration total', 'FGM prevelance in women', 'FGM prevalance in girls','FGM prevelance in support groups', 
          'Justify wife beating male', 'Justify wife beating female', 'Violent discipline total', 'Violent discipline male', 
          'Violent discipline female']
 
@@ -59,7 +61,7 @@ count = 0
 #Store everything in a dictionary
 rows = []
 for i in range(len(country_values)):
-    for j in range(13):  # Assuming there are 5 categories
+    for j in range(14):  # Assuming there are 5 categories
         if "–" in str(catagories_list[j][i]):
             continue
         row = {
@@ -77,4 +79,4 @@ with open(output_file, "w", newline="") as csvfile:
     for row in rows:
         writer.writerow(row)
 
-print(count)
+print("The total number of rows in the csv file is ",count)

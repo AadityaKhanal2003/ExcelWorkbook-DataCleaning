@@ -103,6 +103,7 @@ Benin,Children married by 18,34.4
 Benin,Birth registration total,80.2
 Benin,FGM prevelance in women,12.9
 Benin,FGM prevalance in girls,2.2
+Benin,FGM prevelance in support groups,1.4
 Benin,Justify wife beating male,13.5
 Benin,Justify wife beating female,46.6
 Bhutan,Child_labour_total,2.9
@@ -149,6 +150,7 @@ Burkina Faso,Children married by 18,51.6
 Burkina Faso,Birth registration total,76.9
 Burkina Faso,FGM prevelance in women,75.8
 Burkina Faso,FGM prevalance in girls,13.3
+Burkina Faso,FGM prevelance in support groups,9.3
 Burkina Faso,Justify wife beating male,34.1
 Burkina Faso,Justify wife beating female,43.5
 Burkina Faso,Violent discipline total,81.5
@@ -186,6 +188,7 @@ Cameroon,Children married by 18,38.4
 Cameroon,Birth registration total,61.4
 Cameroon,FGM prevelance in women,1.4
 Cameroon,FGM prevalance in girls,0.7
+Cameroon,FGM prevelance in support groups,6.6
 Cameroon,Justify wife beating male,38.7
 Cameroon,Justify wife beating female,46.5
 Cameroon,Violent discipline total,92.6
@@ -200,6 +203,7 @@ Central African Republic ,Children married by 18,67.9
 Central African Republic ,Birth registration total,61
 Central African Republic ,FGM prevelance in women,24.2
 Central African Republic ,FGM prevalance in girls,1.2
+Central African Republic ,FGM prevelance in support groups,11.3
 Central African Republic ,Justify wife beating male,80.3
 Central African Republic ,Justify wife beating female,79.6
 Central African Republic ,Violent discipline total,92.1
@@ -213,6 +217,7 @@ Chad,Children married by 18,68.1
 Chad,Birth registration total,15.7
 Chad,FGM prevelance in women,44.3
 Chad,FGM prevalance in girls,18.2
+Chad,FGM prevelance in support groups,37.7
 Chad,Justify wife beating female,62.3
 Chad,Violent discipline total,83.6
 Chad,Violent discipline male,85
@@ -249,6 +254,7 @@ Côte d'Ivoire,Children married by 18,33.2
 Côte d'Ivoire,Birth registration total,65
 Côte d'Ivoire,FGM prevelance in women,38.2
 Côte d'Ivoire,FGM prevalance in girls,10
+Côte d'Ivoire,FGM prevelance in support groups,13.8
 Côte d'Ivoire,Justify wife beating male,42
 Côte d'Ivoire,Justify wife beating female,47.9
 Côte d'Ivoire,Violent discipline total,91.2
@@ -279,6 +285,7 @@ Djibouti,Children married by 18,5.4
 Djibouti,Birth registration total,92
 Djibouti,FGM prevelance in women,93.1
 Djibouti,FGM prevalance in girls,48.5
+Djibouti,FGM prevelance in support groups,36.6
 Djibouti,Violent discipline total,71.1
 Djibouti,Violent discipline male,73.1
 Djibouti,Violent discipline female,72.1
@@ -306,6 +313,7 @@ Egypt,Children married by 18,16.6
 Egypt,Birth registration total,99
 Egypt,FGM prevelance in women,91.1
 Egypt,FGM prevalance in girls,16.5
+Egypt,FGM prevelance in support groups,54
 Egypt,Justify wife beating female,39.3
 Egypt,Violent discipline total,90.2
 Egypt,Violent discipline male,91.7
@@ -322,6 +330,7 @@ Eritrea,Children married by 15,19.6
 Eritrea,Children married by 18,47
 Eritrea,FGM prevelance in women,88.7
 Eritrea,FGM prevalance in girls,62.5
+Eritrea,FGM prevelance in support groups,48.8
 Eritrea,Justify wife beating female,70.7
 Estonia,Birth registration total,100
 Ethiopia,Child_labour_total,27.4
@@ -332,6 +341,7 @@ Ethiopia,Children married by 18,41
 Ethiopia,Birth registration total,6.6
 Ethiopia,FGM prevelance in women,74.3
 Ethiopia,FGM prevalance in girls,24.4
+Ethiopia,FGM prevelance in support groups,31.4
 Ethiopia,Justify wife beating male,44.9
 Ethiopia,Justify wife beating female,68.4
 Fiji,Violent discipline female,72
@@ -353,6 +363,7 @@ Gambia,Children married by 18,36.4
 Gambia,Birth registration total,52.5
 Gambia,FGM prevelance in women,76.4
 Gambia,FGM prevalance in girls,56.1
+Gambia,FGM prevelance in support groups,64.2
 Gambia,Justify wife beating female,74.5
 Gambia,Violent discipline total,91
 Gambia,Violent discipline male,89.6
@@ -376,6 +387,7 @@ Ghana,Children married by 18,20.7
 Ghana,Birth registration total,62.5
 Ghana,FGM prevelance in women,3.8
 Ghana,FGM prevalance in girls,0.5
+Ghana,FGM prevelance in support groups,2.4
 Ghana,Justify wife beating male,25.7
 Ghana,Justify wife beating female,44.1
 Ghana,Violent discipline total,93.6
@@ -396,6 +408,7 @@ Guinea,Children married by 18,63.1
 Guinea,Birth registration total,43.2
 Guinea,FGM prevelance in women,95.6
 Guinea,FGM prevalance in girls,56.8
+Guinea,FGM prevelance in support groups,69.2
 Guinea,Justify wife beating female,85.6
 Guinea-Bissau,Child_labour_total,38
 Guinea-Bissau,Child_labour_male,39.5
@@ -405,6 +418,7 @@ Guinea-Bissau,Children married by 18,22
 Guinea-Bissau,Birth registration total,24.1
 Guinea-Bissau,FGM prevelance in women,49.8
 Guinea-Bissau,FGM prevalance in girls,38.7
+Guinea-Bissau,FGM prevelance in support groups,33.5
 Guinea-Bissau,Justify wife beating female,40.2
 Guinea-Bissau,Violent discipline total,80.7
 Guinea-Bissau,Violent discipline male,82.4
@@ -471,6 +485,7 @@ Iraq,Children married by 18,24.3
 Iraq,Birth registration total,99.2
 Iraq,FGM prevelance in women,8.1
 Iraq,FGM prevalance in girls,3.1
+Iraq,FGM prevelance in support groups,4.9
 Iraq,Justify wife beating female,51.2
 Iraq,Violent discipline total,76.9
 Iraq,Violent discipline male,81.1
@@ -516,6 +531,7 @@ Kenya,Children married by 18,26.4
 Kenya,Birth registration total,60
 Kenya,FGM prevelance in women,27.1
 Kenya,FGM prevalance in girls,7.7
+Kenya,FGM prevelance in support groups,9.8
 Kenya,Justify wife beating male,44
 Kenya,Justify wife beating female,52.6
 Kiribati,Children married by 15,2.8
@@ -571,6 +587,7 @@ Liberia,Children married by 15,10.8
 Liberia,Children married by 18,37.9
 Liberia,Birth registration total,3.6
 Liberia,FGM prevelance in women,65.7
+Liberia,FGM prevelance in support groups,45.2
 Liberia,Justify wife beating male,30.2
 Liberia,Justify wife beating female,59.3
 Liberia,Violent discipline total,94
@@ -607,6 +624,7 @@ Mali,Children married by 18,55
 Mali,Birth registration total,80.8
 Mali,FGM prevelance in women,88.5
 Mali,FGM prevalance in girls,74.3
+Mali,FGM prevelance in support groups,73.2
 Mali,Justify wife beating female,87.2
 Malta,Birth registration total,100
 Marshall Islands,Children married by 15,5.6
@@ -622,6 +640,7 @@ Mauritania,Children married by 18,34.3
 Mauritania,Birth registration total,58.8
 Mauritania,FGM prevelance in women,69.4
 Mauritania,FGM prevalance in girls,53.6
+Mauritania,FGM prevelance in support groups,40.7
 Mauritania,Justify wife beating female,37.9
 Mauritania,Violent discipline total,87.2
 Mauritania,Violent discipline male,86.5
@@ -706,6 +725,7 @@ Niger,Children married by 18,74.5
 Niger,Birth registration total,31.8
 Niger,FGM prevelance in women,2.2
 Niger,FGM prevalance in girls,0.9
+Niger,FGM prevelance in support groups,2.7
 Niger,Justify wife beating female,70.1
 Nigeria,Child_labour_total,24.7
 Nigeria,Child_labour_male,24.1
@@ -715,6 +735,7 @@ Nigeria,Children married by 18,39
 Nigeria,Birth registration total,41.5
 Nigeria,FGM prevelance in women,27
 Nigeria,FGM prevalance in girls,13.8
+Nigeria,FGM prevelance in support groups,21.2
 Nigeria,Justify wife beating female,45.6
 Nigeria,Violent discipline total,90.3
 Nigeria,Violent discipline male,91.4
@@ -788,6 +809,7 @@ Senegal,Children married by 18,32.9
 Senegal,Birth registration total,74.6
 Senegal,FGM prevelance in women,25.7
 Senegal,FGM prevalance in girls,18
+Senegal,FGM prevelance in support groups,16.6
 Senegal,Justify wife beating male,24.7
 Senegal,Justify wife beating female,60
 Serbia,Child_labour_total,4.4
@@ -809,6 +831,7 @@ Sierra Leone,Children married by 18,43.7
 Sierra Leone,Birth registration total,78
 Sierra Leone,FGM prevelance in women,88.3
 Sierra Leone,FGM prevalance in girls,13.2
+Sierra Leone,FGM prevelance in support groups,65.9
 Sierra Leone,Justify wife beating female,73.3
 Sierra Leone,Violent discipline total,82.3
 Sierra Leone,Violent discipline male,81.1
@@ -828,6 +851,7 @@ Somalia,Children married by 18,45.3
 Somalia,Birth registration total,3
 Somalia,FGM prevelance in women,97.9
 Somalia,FGM prevalance in girls,46
+Somalia,FGM prevelance in support groups,64.5
 Somalia,Justify wife beating female,75.7
 South Africa,Children married by 15,0.8
 South Africa,Children married by 18,5.6
@@ -855,6 +879,7 @@ Sudan,Children married by 18,32.9
 Sudan,Birth registration total,59.3
 Sudan,FGM prevelance in women,87.6
 Sudan,FGM prevalance in girls,37
+Sudan,FGM prevelance in support groups,42.3
 Sudan,Justify wife beating female,47
 Suriname,Child_labour_total,4.1
 Suriname,Child_labour_male,4.1
@@ -930,6 +955,7 @@ Togo,Children married by 18,25.2
 Togo,Birth registration total,77.9
 Togo,FGM prevelance in women,3.8
 Togo,FGM prevalance in girls,0.4
+Togo,FGM prevelance in support groups,1.9
 Togo,Justify wife beating female,43
 Togo,Violent discipline total,92.6
 Togo,Violent discipline male,93.9
@@ -978,6 +1004,7 @@ Uganda,Children married by 18,39.7
 Uganda,Birth registration total,29.9
 Uganda,FGM prevelance in women,1.4
 Uganda,FGM prevalance in girls,1.3
+Uganda,FGM prevelance in support groups,8.7
 Uganda,Justify wife beating male,43.7
 Uganda,Justify wife beating female,58.3
 Ukraine,Child_labour_total,7.3
@@ -1001,6 +1028,7 @@ United Republic of Tanzania,Children married by 18,36.9
 United Republic of Tanzania,Birth registration total,16.3
 United Republic of Tanzania,FGM prevelance in women,14.6
 United Republic of Tanzania,FGM prevalance in girls,3.4
+United Republic of Tanzania,FGM prevelance in support groups,5.5
 United Republic of Tanzania,Justify wife beating male,38.1
 United Republic of Tanzania,Justify wife beating female,53.5
 United States,Birth registration total,100
@@ -1040,6 +1068,7 @@ Yemen,Children married by 18,32.3
 Yemen,Birth registration total,17
 Yemen,FGM prevelance in women,17
 Yemen,FGM prevalance in girls,15
+Yemen,FGM prevelance in support groups,41
 Yemen,Violent discipline total,94.7
 Yemen,Violent discipline male,94.5
 Yemen,Violent discipline female,94.6
