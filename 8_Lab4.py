@@ -26,7 +26,7 @@ vdiscpline_rangeM = ws["AC15:AC211"]
 vdiscpline_range = ws["AA15:AA211"]
 vdiscpline_rangeF = ws["AE15:AE211"]
 
-#all the values of the 14 columns, these all include 197 values.
+#all the values of the 14 columns, these all include 197 values. in a list
 country_values = [cell[0].value for cell in countries_range] #197 countries
 clabour_values = [cell[0].value for cell in clabour_range]#197 clabour_total
 clabourM_values = [cell[0].value for cell in clabourM_range]#197 c_labour_male
@@ -63,6 +63,7 @@ data_dict = {
 #count to count the number of rows
 count = 0
 rows = []
+#write the contents of a csv file into a dictionary
 for i in range(len(country_values)):
     for j in range(14):  # As there are 14 categories
         if "–" in str(catagories_list[j][i]) or catagories_list[j][i] == 0: #Remove all 0 and all "-
