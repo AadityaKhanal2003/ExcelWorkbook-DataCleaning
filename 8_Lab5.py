@@ -34,4 +34,26 @@ for sublist in outer_list:
         item_lines = [line for line in item_lines if line]
         sublist_lines.extend(item_lines)
     lines.append(sublist_lines)
-print(lines)
+temp_list2 = []
+outer_list2 = []
+for data in lines:
+    skip_next = 0  # Counter to skip the next 41 items after encountering "CHILD PROTECTION"
+    for index, each_item in enumerate(data):
+        each_item = each_item.strip()
+        if skip_next > 0:
+            skip_next -= 1
+            continue  # Skip the next 41 items after "CHILD PROTECTION"
+
+        if "CHILD PROTECTION" in each_item:
+            skip_next = 36
+            continue  # Skip the "CHILD PROTECTION" item itself
+        if "SUMMARY INDICATORS" in each_item:
+            break
+        temp_list2.append(each_item)
+
+        if (index + 1) % 15 == 0:
+            outer_list2.append(temp_list2)
+            temp_list2 = []
+
+for item in outer_list2:
+    print(item)
