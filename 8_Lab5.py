@@ -10,23 +10,21 @@ with open(filename, 'rb') as fpointer:
     temp_list = []
     for content in pdf:
         content = content.strip()  # Remove unwanted line breaks and spaces
-        if not content:  # Skip empty lines
+        if not content:  #
             continue
-        outer_list.append(content)  # add from pdf_file to temp_list
+        outer_list.append(content) 
 
 lines = []
 
 for sublist in outer_list:
     item_lines = sublist.split('\n')[12:]  # split the data based on "\n" and start from 12 to remove TABLE9 in the output.
-    item_lines = [line for line in item_lines if line]  # a list called item_lines and filter out any empty line
-    lines.append(item_lines)  # add item_lines to lines list
-
+    item_lines = [line for line in item_lines if line] 
 temp_list2 = []
 outer_list2 = []
 previous_line = ""
 
 for data in lines:
-    skip_next = 0  # Counter to skip the next 41 items after encountering "CHILD PROTECTION"
+    skip_next = 0  
     for index, each_item in enumerate(data):
         each_item = each_item.strip()
 
@@ -39,7 +37,7 @@ for data in lines:
 
         if skip_next > 0:
             skip_next -= 1
-            continue  # Skip the next 41 items after "CHILD PROTECTION"
+            continue  
         if "CHILD PROTECTION" in each_item:
             skip_next = 36
             continue
@@ -50,6 +48,6 @@ for data in lines:
             outer_list2.append(temp_list2)
             temp_list2 = []
 
-# Display the output
+# Displaying the output
 for item in outer_list2:
     print(item)
