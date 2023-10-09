@@ -103,3 +103,20 @@ for item in outer_list2:
     if item[0] == "9":                              #REMOVE THE MAGICAL 9 THAT APPEARRED OUT OF NOWHERE IN ICELAND.
         del[item[0]]
     print(item)
+
+
+
+
+
+title = ['Child_labour_total', 'Child_labour_male', 'Child_labour_female', 'Children married by 15', 
+         'Children married by 18', 'Birth registration total', 'FGM prevelance in women', 'FGM prevalance in girls','FGM prevelance in support groups', 
+         'Justify wife beating male', 'Justify wife beating female', 'Violent discipline total', 'Violent discipline male', 
+         'Violent discipline female']
+
+header1 = ["CountryName", "CategoryName", "CategoryTotal"]
+#dict for csv file
+data_dict = {
+    header1[0] : [],
+    header1[1] :[],
+    header1[2] :[]
+}
