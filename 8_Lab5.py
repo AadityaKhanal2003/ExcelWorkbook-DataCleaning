@@ -1,5 +1,6 @@
 # Gaurab Baral, Aditya Khanal, Lab 5, Group 8
 import slate3k
+import csv
 
 filename = "Table9.pdf"
 n = 14  # gap between two countries and their data
@@ -100,14 +101,41 @@ for data in lines:
 
 # Display the output
 for item in outer_list2:
-    if item[0] == "9":                              #REMOVE THE MAGICAL 9 THAT APPEARRED OUT OF NOWHERE IN ICELAND.
-        del[item[0]]
-    print(item)
+    if item[0] == "9":
+        item.pop(0)                     #remove the magical 9 that appeared out of nowhere
+    
+    for i in range(1, len(item)):
+        item[i] = item[i].replace("x", "")
+        item[i] = item[i].replace("y", "")
+        item[i] = item[i].replace("v", "")
+#at this point item is fully cleaned and ready to be put into csv file.
+def get_column_values(lst_of_lists, column_index):
+    column_values = []
+    for row in lst_of_lists:
+        # Check if the row has enough elements to access the specified column
+        if column_index < len(row):
+            column_values.append(row[column_index])
+    return column_values
 
+country_values = get_column_values(outer_list2, 0)
+clabour_values = get_column_values(outer_list2, 1)
+clabourM_values = get_column_values(outer_list2, 2)
+clabourW_values = get_column_values(outer_list2, 3)
+cmarraigeb15_values = get_column_values(outer_list2, 4)
+cmarraigeb18_values = get_column_values(outer_list2, 5)
+bregistration_values = get_column_values(outer_list2, 6)
+total_fgmW_values = get_column_values(outer_list2, 7)
+total_fgmG_values = get_column_values(outer_list2, 8)
+total_fgmSGM_values = get_column_values(outer_list2, 9)
+total_jowM_values = get_column_values(outer_list2, 10)
+total_jowF_values = get_column_values(outer_list2, 11)
+vdiscpline_values = get_column_values(outer_list2, 12)
+vdiscpline_valuesM = get_column_values(outer_list2, 13)
+vdiscpline_valuesF = get_column_values(outer_list2, 14)
 
-
-
-
+catagories_list = [clabour_values,clabourM_values,clabourW_values,cmarraigeb15_values,cmarraigeb18_values,bregistration_values,
+                   total_fgmW_values,total_fgmG_values,total_fgmSGM_values,total_jowM_values,total_jowF_values,vdiscpline_values,
+                   vdiscpline_valuesM,vdiscpline_valuesF]
 title = ['Child_labour_total', 'Child_labour_male', 'Child_labour_female', 'Children married by 15', 
          'Children married by 18', 'Birth registration total', 'FGM prevelance in women', 'FGM prevalance in girls','FGM prevelance in support groups', 
          'Justify wife beating male', 'Justify wife beating female', 'Violent discipline total', 'Violent discipline male', 
@@ -120,3 +148,27 @@ data_dict = {
     header1[1] :[],
     header1[2] :[]
 }
+#count to count the number of rows
+count = 0
+rows = []
+#write the contents of a csv file into a dictionary
+for i in range(len(country_values)):
+    for j in range(14):  # As there are 14 categories
+        if "–" in str(catagories_list[j][i]) or catagories_list[j][i] == "0": #Remove all 0 and all "-
+            continue
+        row = {
+            header1[0]: country_values[i],          #Country Name
+            header1[1]: title[j],                   #Category Name
+            header1[2]: catagories_list[j][i]       #Category Total
+        }
+        count+=1
+        rows.append(row)
+#Writing it in a csv file
+output_file = "8_Lab5.csv"
+with open(output_file, "w", newline="") as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=header1) #write title as header1
+    writer.writeheader()
+    for row in rows:
+        writer.writerow(row)                              #add each row in a new row in csv file
+
+print("The total number of rows in the csv file is ",count)
