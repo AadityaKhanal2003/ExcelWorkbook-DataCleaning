@@ -95,7 +95,7 @@ for data in lines:
         if "SUMMARY INDICATORS" in each_item: #remove all the data sfter summary indicators as we donot need that.
             break
         temp_list2.append(each_item)
-        if (index + 1) % 15 == 0:
+        if (index + 1) % 15 == 0:    #keep 15 files in one line.
             outer_list2.append(temp_list2)
             temp_list2 = []
 
@@ -108,7 +108,7 @@ for item in outer_list2:
         item[i] = item[i].replace("x", "")
         item[i] = item[i].replace("y", "")
         item[i] = item[i].replace("v", "")
-#at this point item is fully cleaned and ready to be put into csv file.
+#at this point item is fully cleaned and ready to be put into csv file.   #the same code as lab4.
 def get_column_values(lst_of_lists, column_index):
     column_values = []
     for row in lst_of_lists:
